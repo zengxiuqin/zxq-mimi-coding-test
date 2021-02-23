@@ -10,6 +10,7 @@ public class CombinationLetterForZeroToNityServiceImpl implements ICombinationLe
 
 	
 	private  ICombinationLetterService combinationLetterService;
+
 	
 	public CombinationLetterForZeroToNityServiceImpl() {
 		this.combinationLetterService = new CombinationLetterForZeroToNineServiceImpl();
