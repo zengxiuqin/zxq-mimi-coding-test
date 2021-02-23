@@ -14,6 +14,7 @@ public class CombinationLetterUnitTest {
 	
 	@Test
 	public void testRightOfCombinationLetter() {
+
 		
 		String result1ForZeroToNine = zeroToNineService.combinationLetter(new int[]{2,3});
         String result2ForZeroToNine = zeroToNineService.combinationLetter(new int[]{9});
